@@ -1,0 +1,3 @@
+# Ignore files generated from vagrant
+workbench/
+.vagrant/
