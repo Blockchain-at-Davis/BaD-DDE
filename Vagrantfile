@@ -70,7 +70,7 @@ echo "╚═════╝ ╚═╝  ╚═╝╚═════╝       ╚�
 echo ""
 echo "Blockchain At Davis - DApp Development Environment"
 SCRIPT
-# Make sure the vagrant-ignition plugin is installed
+# Make sure the vagrant-disksize plugin is installed
 required_plugins = %w(vagrant-disksize)
 
 plugins_to_install = required_plugins.select { |plugin| not Vagrant.has_plugin? plugin }
