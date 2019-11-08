@@ -49,6 +49,7 @@ source ~/.profile
 npm install -g truffle
 npm install -g ganache-cli 
 npm install -g web3
+npm install -g ethers
 
 # set node to recognize global package location
 echo "export NODE_PATH=$(npm root -g)" >> .profile
